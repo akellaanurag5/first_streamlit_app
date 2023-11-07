@@ -39,7 +39,7 @@ streamlit.write('The user entered ', fruit_choice)
 #streamlit.stop()
 
 #import snowflake.connector 
-streamlit.header("The fruit load list contains:")
+streamlit.header("View Our Fruit List - Add Your Favorties!")
 #snowflake-related functions
 def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:
